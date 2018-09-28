@@ -9,11 +9,14 @@ import org.springframework.ui.ModelMap;
 @RequestMapping("/hello")
 public class HelloController{
 
-   @RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(value = "/user/createUser",method = RequestMethod.GET)
    public String printHello(ModelMap model) {
-      model.addAttribute("message", "Hello Spring MVC Framework!");
+      model.addAttribute("message", "Hello World!");
 
       return "hello";
    }
-
+//	@RequestMapping(value = "/user/createUser", method = RequestMethod.GET)
+//	public String getString(ModelMap model) {
+//		return "Hello World!";
+//	}
 }
