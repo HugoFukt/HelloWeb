@@ -1,0 +1,7 @@
+<suite name="test">
+    <test verbose="1" name="test" >
+        <classes>
+            <class name="com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController"/>
+        </classes>
+    </test>
+</suite>
