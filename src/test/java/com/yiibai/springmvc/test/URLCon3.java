@@ -11,6 +11,7 @@ public class URLCon3 {
 			HttpURLConnection connt = (HttpURLConnection) url.openConnection();
 			connt.setRequestMethod("HEAD");
 			String strMessage = connt.getResponseMessage();
+			System.out.println(strMessage);
 			if (strMessage.compareTo("Not Found") == 0) {
 				return "false";
 			}
