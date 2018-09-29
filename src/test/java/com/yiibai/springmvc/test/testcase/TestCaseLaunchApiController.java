@@ -12,12 +12,8 @@ import com.yiibai.springmvc.test.URLCon4;
 //import com.yiibai.springmvc.test.URLCon2;
 //import com.yiibai.springmvc.test.URLCon3;
 
-
-
-
 public class TestCaseLaunchApiController {
 
-    
     @Test(groups = {"BaseCase"})
     public void getSecond() throws IOException{
     	String url = "http://192.168.101.34:8081/HelloWeb/hello/user/createUser";
