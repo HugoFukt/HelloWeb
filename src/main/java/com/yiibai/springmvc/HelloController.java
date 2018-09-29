@@ -8,18 +8,16 @@ import org.springframework.ui.ModelMap;
 
 @Controller
 @RequestMapping("/hello")
-public class HelloController{
-
-
+public class HelloController {
 	@RequestMapping(method = RequestMethod.GET)
-   public String printHello(ModelMap model) {
-      model.addAttribute("message", "Hello World!");
+	public final String printHello(final ModelMap model) {
+		model.addAttribute("message", "Hello World!");
+		return "hello";
+	}
 
-      return "hello";
-   }
 	@ResponseBody
 	@RequestMapping(value = "/user/createUser", method = RequestMethod.GET)
-	public String getString(ModelMap model) {
+	public final String getString(final ModelMap model) {
 		return "Hello World!";
 	}
 }
