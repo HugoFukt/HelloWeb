@@ -5,24 +5,24 @@
       <![CDATA[リクエストURL: http://192.168.101.34:8081/HelloWeb/hello/user/createUser]]>
     </line>
     <line>
-      <![CDATA[結果: true]]>
+      <![CDATA[結果: Hello World!]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94" started-at="2018-09-28T09:53:44Z" finished-at="2018-09-28T09:53:44Z">
+  <suite name="Default suite" duration-ms="101" started-at="2018-09-29T02:18:53Z" finished-at="2018-09-29T02:18:53Z">
     <groups>
       <group name="BaseCase">
-        <method signature="TestCaseLaunchApiController.getSecond()[pri:0, instance:com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController@5e5792a0]" name="getSecond" class="com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController"/>
+        <method signature="TestCaseLaunchApiController.getSecond()[pri:0, instance:com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController@5e3a8624]" name="getSecond" class="com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController"/>
       </group> <!-- BaseCase -->
     </groups>
-    <test name="Default test" duration-ms="94" started-at="2018-09-28T09:53:44Z" finished-at="2018-09-28T09:53:44Z">
+    <test name="Default test" duration-ms="101" started-at="2018-09-29T02:18:53Z" finished-at="2018-09-29T02:18:53Z">
       <class name="com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController">
-        <test-method status="PASS" signature="getSecond()[pri:0, instance:com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController@5e5792a0]" name="getSecond" duration-ms="63" started-at="2018-09-28T09:53:44Z" finished-at="2018-09-28T09:53:44Z">
+        <test-method status="PASS" signature="getSecond()[pri:0, instance:com.yiibai.springmvc.test.testcase.TestCaseLaunchApiController@5e3a8624]" name="getSecond" duration-ms="74" started-at="2018-09-29T02:18:53Z" finished-at="2018-09-29T02:18:53Z">
           <reporter-output>
             <line>
               <![CDATA[リクエストURL: http://192.168.101.34:8081/HelloWeb/hello/user/createUser]]>
             </line>
             <line>
-              <![CDATA[結果: true]]>
+              <![CDATA[結果: Hello World!]]>
             </line>
           </reporter-output>
         </test-method> <!-- getSecond -->
