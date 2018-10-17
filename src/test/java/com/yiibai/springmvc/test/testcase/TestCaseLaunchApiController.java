@@ -16,7 +16,7 @@ public class TestCaseLaunchApiController {
 
     @Test(groups = {"BaseCase"})
     public void getSecond() throws IOException{
-    	String url = "http://192.168.101.34:8081/HelloWeb/hello/user/createUser";
+    	String url = "http://192.168.101.34:8080/HelloWeb/hello/user/createUser";
     	String params = "";
     	//String result = URLCon.getConnection(url, params,"GET");
     	//String result = URLCon2.doHttpRequest(url);
